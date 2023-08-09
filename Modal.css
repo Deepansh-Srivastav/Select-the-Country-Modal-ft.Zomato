@@ -1,0 +1,63 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction:column ;
+    justify-content: end;
+    align-items: center;
+    width: 110px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+}
+.modal{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;  
+    position: absolute;
+    bottom: 60px;
+    background-color: white;
+}
+.active-style{
+    box-shadow: 0 2px 50px 1px #333;
+}
+.arrow{
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-top: 0;
+    border-left: 0;
+    position: absolute;
+    bottom: -11.5px;
+    left: 40%;
+    background-color: white;
+    transform: rotate(45deg);
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+}
+.country{
+    width: 30px;
+    height: 25px;
+    margin-right: 12px;
+}
+.arrownDown{
+    width: 12px;
+    height: 12px;
+    margin-left: 12px ;
+}
+
+.active{
+    overflow: visible;
+}
